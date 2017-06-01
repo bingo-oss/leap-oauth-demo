@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.leapframework.org/schema/config">
+    <base-package>my.project.core</base-package>
+    <properties>
+        <property name="db.url">jdbc:mysql://localhost:3306/leap-demo?useUnicode=true</property>
+        <property name="db.username">root</property>
+        <property name="db.password">123456</property>
+        <property name="db.driverClassName">com.mysql.jdbc.Driver</property>
+
+        <!-- SSO服务器地址 -->
+        <property name="oauth.server.url">http://1.2.3.4:8000/sso</property>
+
+        <!-- 本应用在SSO服务器上的客户端ID -->
+        <property name="oauth.client.id">demo_client_id</property>
+
+        <!-- 本应用在SSO服务器上的secret -->
+        <property name="oauth.secret">demo_secret</property>
+    </properties>
+</config>

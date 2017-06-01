@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<apis xmlns="http://www.leapframework.org/schema/web/apis/apis">
+
+    <api name="api" base-path="/api" base-package="my.project.api">
+    </api>
+
+</apis>
