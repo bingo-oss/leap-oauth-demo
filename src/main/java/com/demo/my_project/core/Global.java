@@ -1,4 +1,4 @@
-package my.project.core;
+package com.demo.my_project.core;
 
 import leap.core.AppContext;
 import leap.core.annotation.Inject;
@@ -7,7 +7,7 @@ import leap.web.App;
 import leap.web.security.SecurityConfigurator;
 import leap.web.security.user.UserDetails;
 import leap.web.security.user.UserStore;
-import my.project.core.entity.User;
+import com.demo.my_project.core.entity.User;
 
 public class Global extends App {
 

@@ -56,7 +56,7 @@ import leap.web.App;
 import leap.web.security.SecurityConfigurator;
 import leap.web.security.user.UserDetails;
 import leap.web.security.user.UserStore;
-import my.project.core.entity.User;
+import User;
 
 public class Global extends App {
 

@@ -1,7 +1,7 @@
-package my.project.core.service;
+package com.demo.my_project.core.service;
 
-import my.project.core.entity.User;
-import my.project.core.exception.UserNotFoundException;
+import com.demo.my_project.core.exception.UserNotFoundException;
+import com.demo.my_project.core.entity.User;
 import leap.core.annotation.Bean;
 
 /**

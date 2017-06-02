@@ -1,14 +1,11 @@
-package my.project.core.entity;
+package com.demo.my_project.core.entity;
 
 import leap.core.doc.annotation.Doc;
 import leap.orm.annotation.Column;
 import leap.orm.annotation.Id;
-import leap.orm.annotation.NonColumn;
 import leap.orm.annotation.Table;
 import leap.orm.model.Model;
 import leap.web.security.user.UserDetails;
-
-import java.util.List;
 
 /**
  * leap示例, 可删除.

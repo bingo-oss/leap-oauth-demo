@@ -1,6 +1,6 @@
-package my.project.api.controller;
+package com.demo.my_project.api;
 
-import my.project.core.entity.User;
+import com.demo.my_project.core.entity.User;
 import leap.web.annotation.Path;
 import leap.web.annotation.PathParam;
 import leap.web.annotation.http.DELETE;

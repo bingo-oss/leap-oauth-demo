@@ -1,4 +1,4 @@
-package my.project.core.exception;
+package com.demo.my_project.core.exception;
 
 import java.text.MessageFormat;
 
